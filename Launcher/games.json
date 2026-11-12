@@ -1,0 +1,53 @@
+{
+  "games": [
+    {
+      "id": "cruisn_usa",
+      "display_name": "Cruis'n USA",
+      "enabled": false,
+      "availability_note": "Not enabled: no compatible playable build is qualified.",
+      "project_path": null,
+      "executable_path": null,
+      "rom_path": null,
+      "working_directory": null,
+      "arguments": ["{rom_path}"],
+      "log_path": "logs/cruisn_usa"
+    },
+    {
+      "id": "cruisn_world",
+      "display_name": "Cruis'n World",
+      "enabled": true,
+      "availability_note": "Configure a compatible executable and user-supplied supported ROM to enable Play.",
+      "expected_rom_sha256": "5320594232f0c492a672464832425351bd06497c95fb243745e2493bc5df9c2c",
+      "project_path": null,
+      "executable_path": null,
+      "rom_path": null,
+      "working_directory": null,
+      "arguments": ["{rom_path}"],
+      "log_path": "logs/cruisn_world"
+    },
+    {
+      "id": "cruisn_exotica",
+      "display_name": "Cruis'n Exotica",
+      "enabled": false,
+      "availability_note": "In Development — Not Yet Playable.",
+      "project_path": null,
+      "executable_path": null,
+      "rom_path": null,
+      "working_directory": null,
+      "arguments": ["{rom_path}"],
+      "log_path": "logs/cruisn_exotica"
+    },
+    {
+      "id": "velocity",
+      "display_name": "Cruis'n Velocity",
+      "enabled": false,
+      "availability_note": "Experimental; interactive gameplay is not verified.",
+      "project_path": null,
+      "executable_path": null,
+      "rom_path": null,
+      "working_directory": null,
+      "arguments": ["--rom", "{rom_path}"],
+      "log_path": "logs/velocity"
+    }
+  ]
+}
