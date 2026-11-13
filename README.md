@@ -22,10 +22,10 @@ GUI tests require PySide6 and a supported Qt platform. This candidate's GUI was 
 
 ## License scope
 
-The root [MIT License](LICENSE) applies only to eligible first-party launcher source, tests, build helpers, and original project documentation listed in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). It does not license the registry's game titles/hash, third-party dependencies, trademarks, ROMs, game assets, game executables, or any other game-derived material. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+The root [MIT License](LICENSE) applies only to eligible owner-authored launcher source, tests, build helpers, original project documentation, and original configuration contributions in `Launcher/games.json`, as scoped in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). No claim or license is made for the registry's commercial game titles, the factual ROM hash identifier, trademarks, third-party dependencies, ROM contents, game assets, game executables, or other game-derived material. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Trademarks and dependencies
 
-Cruis'n names and marks are used only to identify the games this community tool is intended to organize. They belong to their respective rights holders. This project is unofficial and is not affiliated with, endorsed by, or sponsored by those rights holders. Qt/PySide6 and PyInstaller are separate third-party projects; their terms remain applicable. The launcher source does not bundle them.
+Cruis'n names and marks are used only to identify the games this community tool is intended to organize. They belong to their respective rights holders. This project is unofficial and is not affiliated with, endorsed by, or sponsored by those rights holders. This source-only repository contains dependency declarations and build instructions, not Qt, PySide6, PyInstaller, commercial artwork, or game executables. If a packaged application is produced later, its actual Qt/PySide6 modules and PyInstaller bootloader/components must be reviewed and their applicable notices and license terms preserved; the source repository's MIT grant does not cover them.
 
 See [KNOWN_ISSUES.md](KNOWN_ISSUES.md) and [CONTRIBUTING.md](CONTRIBUTING.md) before working with this candidate.

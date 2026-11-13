@@ -7,3 +7,5 @@ No third-party library source or binary package is bundled in this source candid
 - **Game executables and SDL2-compat:** not included. Each runtime and its dependencies are independently supplied and licensed.
 
 This file is a dependency summary, not a substitute for upstream license texts or notices. No dependency license text is copied into this candidate because no dependency implementation is included.
+
+This is a source-only distribution. Any future packaged application is a separate distribution: review its resolved Qt/PySide6 modules and PyInstaller bootloader/components, include their required notices, and comply with their applicable terms. No packaged application is included here.
